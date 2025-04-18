@@ -1,7 +1,5 @@
 # Projects related to DOM
 
-# Solution Code
-
 ## project 1
 
 ## project Link
@@ -74,3 +72,17 @@ form.addEventListener('submit',function(e){
 
 })
 ```
+
+## project 3
+## project Link
+[Click Here] 
+https://github.com/priyakinha/Digital-Clock
+
+```javaScript
+const clock=document.querySelector("#clock");
+setInterval(function(){
+    let date=new Date();
+    clock.innerHTML=date.toLocaleTimeString();
+},1000)
+```
+
